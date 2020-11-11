@@ -11,10 +11,15 @@
 		C9B17B37255C53620045D097 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B36255C53620045D097 /* Tests_macOS.swift */; };
 		C9B17B39255C53620045D097 /* BasicTipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B10255C53600045D097 /* BasicTipApp.swift */; };
 		C9B17B3A255C53620045D097 /* BasicTipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B10255C53600045D097 /* BasicTipApp.swift */; };
-		C9B17B3B255C53620045D097 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B11255C53600045D097 /* ContentView.swift */; };
-		C9B17B3C255C53620045D097 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B11255C53600045D097 /* ContentView.swift */; };
 		C9B17B3D255C53620045D097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B17B12255C53620045D097 /* Assets.xcassets */; };
 		C9B17B3E255C53620045D097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B17B12255C53620045D097 /* Assets.xcassets */; };
+		C9B17B5B255C6B890045D097 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B5A255C6B890045D097 /* TipCalculatorModel.swift */; };
+		C9B17B5C255C6B890045D097 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B5A255C6B890045D097 /* TipCalculatorModel.swift */; };
+		C9B17B74255C6BB60045D097 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B6E255C6BB50045D097 /* BackgroundView.swift */; };
+		C9B17B75255C6BB60045D097 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B6F255C6BB50045D097 /* ContentView.swift */; };
+		C9B17B77255C6BB60045D097 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B71255C6BB50045D097 /* AppView.swift */; };
+		C9B17B78255C6BB60045D097 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B72255C6BB60045D097 /* SettingsView.swift */; };
+		C9B17B79255C6BB60045D097 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B73255C6BB60045D097 /* KeyboardManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		C9B17B10255C53600045D097 /* BasicTipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTipApp.swift; sourceTree = "<group>"; };
-		C9B17B11255C53600045D097 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C9B17B12255C53620045D097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9B17B17255C53620045D097 /* BasicTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B17B1A255C53620045D097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		C9B17B32255C53620045D097 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B17B36255C53620045D097 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C9B17B38255C53620045D097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B17B5A255C6B890045D097 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
+		C9B17B6E255C6BB50045D097 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		C9B17B6F255C6BB50045D097 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9B17B71255C6BB50045D097 /* AppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		C9B17B72255C6BB60045D097 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C9B17B73255C6BB60045D097 /* KeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				C9B17B10255C53600045D097 /* BasicTipApp.swift */,
-				C9B17B11255C53600045D097 /* ContentView.swift */,
+				C9B17B61255C6B8E0045D097 /* Model */,
+				C9B17B59255C6B740045D097 /* View */,
 				C9B17B12255C53620045D097 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -119,6 +130,11 @@
 		C9B17B19255C53620045D097 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				C9B17B71255C6BB50045D097 /* AppView.swift */,
+				C9B17B6E255C6BB50045D097 /* BackgroundView.swift */,
+				C9B17B6F255C6BB50045D097 /* ContentView.swift */,
+				C9B17B73255C6BB60045D097 /* KeyboardManager.swift */,
+				C9B17B72255C6BB60045D097 /* SettingsView.swift */,
 				C9B17B1A255C53620045D097 /* Info.plist */,
 			);
 			path = iOS;
@@ -149,6 +165,21 @@
 				C9B17B38255C53620045D097 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		C9B17B59255C6B740045D097 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9B17B61255C6B8E0045D097 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9B17B5A255C6B890045D097 /* TipCalculatorModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +339,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9B17B3B255C53620045D097 /* ContentView.swift in Sources */,
+				C9B17B74255C6BB60045D097 /* BackgroundView.swift in Sources */,
+				C9B17B5B255C6B890045D097 /* TipCalculatorModel.swift in Sources */,
+				C9B17B75255C6BB60045D097 /* ContentView.swift in Sources */,
+				C9B17B78255C6BB60045D097 /* SettingsView.swift in Sources */,
+				C9B17B77255C6BB60045D097 /* AppView.swift in Sources */,
+				C9B17B79255C6BB60045D097 /* KeyboardManager.swift in Sources */,
 				C9B17B39255C53620045D097 /* BasicTipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9B17B3C255C53620045D097 /* ContentView.swift in Sources */,
+				C9B17B5C255C6B890045D097 /* TipCalculatorModel.swift in Sources */,
 				C9B17B3A255C53620045D097 /* BasicTipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
