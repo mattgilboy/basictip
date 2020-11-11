@@ -139,6 +139,9 @@ class TipCalculatorModel: ObservableObject {
         if var splitValue = Int(split) {
             splitValue += 1
             split = String(splitValue)
+        } else if split == "" {
+            // Handles first increment on watchOS
+            split = "2"
         }
     }
     
@@ -148,6 +151,19 @@ class TipCalculatorModel: ObservableObject {
                 splitValue -= 1
                 split = String(splitValue)
             }
+        }
+    }
+    
+    func incrementSplitEnabled() -> Bool {
+        // No maximum split value enforced
+        return true
+    }
+    
+    func decrementSplitEnabled() -> Bool {
+        if split == "" || split == "1" {
+            return false
+        } else {
+            return true
         }
     }
     

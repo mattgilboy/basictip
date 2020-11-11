@@ -30,6 +30,8 @@
 		C9B17BA9255C6F790045D097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B17BA8255C6F790045D097 /* Assets.xcassets */; };
 		C9B17BAC255C6F790045D097 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B17BAB255C6F790045D097 /* Preview Assets.xcassets */; };
 		C9B17BB1255C6F790045D097 /* watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C9B17B90255C6F750045D097 /* watchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C9B17BC1255C71300045D097 /* DecimalPadInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17BC0255C71300045D097 /* DecimalPadInputView.swift */; };
+		C9B17BC8255C71400045D097 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B17B5A255C6B890045D097 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +123,7 @@
 		C9B17BAB255C6F790045D097 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9B17BAD255C6F790045D097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9B17BAE255C6F790045D097 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C9B17BC0255C71300045D097 /* DecimalPadInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalPadInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +272,7 @@
 			children = (
 				C9B17B9E255C6F780045D097 /* BasicTipApp.swift */,
 				C9B17BA0255C6F780045D097 /* ContentView.swift */,
+				C9B17BC0255C71300045D097 /* DecimalPadInputView.swift */,
 				C9B17BA2255C6F780045D097 /* NotificationController.swift */,
 				C9B17BA4255C6F780045D097 /* NotificationView.swift */,
 				C9B17BA6255C6F780045D097 /* ComplicationController.swift */,
@@ -546,8 +550,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9B17BA3255C6F780045D097 /* NotificationController.swift in Sources */,
+				C9B17BC8255C71400045D097 /* TipCalculatorModel.swift in Sources */,
 				C9B17BA1255C6F780045D097 /* ContentView.swift in Sources */,
 				C9B17BA7255C6F780045D097 /* ComplicationController.swift in Sources */,
+				C9B17BC1255C71300045D097 /* DecimalPadInputView.swift in Sources */,
 				C9B17B9F255C6F780045D097 /* BasicTipApp.swift in Sources */,
 				C9B17BA5255C6F780045D097 /* NotificationView.swift in Sources */,
 			);

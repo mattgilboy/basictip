@@ -9,10 +9,14 @@ import SwiftUI
 
 @main
 struct BasicTipApp: App {
+    @StateObject private var model = TipCalculatorModel()
+
     @SceneBuilder var body: some Scene {
+
         WindowGroup {
             NavigationView {
                 ContentView()
+                    .environmentObject(model)
             }
         }
 
