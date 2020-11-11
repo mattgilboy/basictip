@@ -2,7 +2,7 @@
 //  SplashScreen.swift
 //  TipCalculator
 //
-//  Created by Matt Gilboy on 8/3/20.
+//  Created by Matt Gilboy on 11/11/20.
 //  Copyright © 2020 Matt Gilboy. All rights reserved.
 //
 

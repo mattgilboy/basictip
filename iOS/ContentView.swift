@@ -2,7 +2,8 @@
 //  ContentView.swift
 //  Shared
 //
-//  Created by Matt Gilboy on 9/2/20.
+//  Created by Matt Gilboy on 11/11/20.
+//  Copyright © 2020 Matt Gilboy. All rights reserved.
 //
 
 import SwiftUI

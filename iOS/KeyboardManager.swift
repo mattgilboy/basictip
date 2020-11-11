@@ -2,7 +2,8 @@
 //  KeyboardManager.swift
 //  BasicTip
 //
-//  Created by Matt Gilboy on 9/16/20.
+//  Created by Matt Gilboy on 11/11/20.
+//  Copyright © 2020 Matt Gilboy. All rights reserved.
 //
 
 import SwiftUI
