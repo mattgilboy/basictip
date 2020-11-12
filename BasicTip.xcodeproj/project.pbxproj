@@ -710,6 +710,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattgilboy.BasicTip;
 				PRODUCT_NAME = BasicTip;
 				SDKROOT = iphoneos;
@@ -732,6 +733,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattgilboy.BasicTip;
 				PRODUCT_NAME = BasicTip;
 				SDKROOT = iphoneos;
