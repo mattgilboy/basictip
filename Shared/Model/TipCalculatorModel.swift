@@ -66,6 +66,7 @@ class TipCalculatorModel: ObservableObject {
                 if roundUp == true {
                     perPerson = ceil(perPerson)
                     total = perPerson * splitValue
+                    tip = total - billValue
                 }
             } else {
                 tip = 0.00
