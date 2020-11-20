@@ -14,3 +14,21 @@
 </p>
 
 BasicTip is a Multiplatform tip calculator for iOS, iPadOS, watchOS, and macOS created using SwiftUI.
+
+Available today on the [Apple App Store](https://apps.apple.com/us/app/basictip/id1532152513)!
+
+## Features
+
+* Split your bill with ease
+* Adjustable tip percentable
+* Round-up feature
+
+## Version History
+
+**1.0.1**
+
+* 'Tip' value now reflects the new total tip if the 'Round Up' feature is enabled
+
+**1.0.0**
+
+* Initial public release!
